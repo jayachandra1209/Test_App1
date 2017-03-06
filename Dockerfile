@@ -10,6 +10,4 @@ COPY ./app /app
 EXPOSE 5000
 
 # Command to run the program
-CMD ["python", "./app_get.py","-p 5000"]
-
-#CMD ["curl -i http://localhost:5000/todo/api/v1.0/tasks"]                                                                   
+CMD ["python", "./app_get.py","-p 5000"]                                                              
